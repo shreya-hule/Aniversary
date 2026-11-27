@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { Heart, Sparkles } from "lucide-react";
 
@@ -63,20 +62,27 @@ export default function StageTwoReveal({ onContinue }) {
         </div>
 
         <p className="font-serif text-base leading-8 text-rose-900">
-          Every little moment with you became a memory
-          I never want to forget.
+          A beautiful journey that started 10 years ago with a simple Passion Pro… ❤️
 
           {"\n\n"}
 
-          The silly laughs, random conversations,
-          beautiful surprises and even the smallest
-          things we do together mean more to me
-          than words can explain.
+          From those little rides and innocent memories to the sporty R15, every ride brought us closer and gave us stories to remember. 🥹
 
           {"\n\n"}
 
-          I don't need every day to be perfect.
-          I just want more days with you.
+          Then came the dream upgrade — GS 310! 🔥 Bigger dreams, longer rides and countless adventures together.
+          And guess what? Our story isn’t over yet… the next chapter is waiting with an upcoming Sports Bike! 😉🏁
+
+          {"\n\n"}
+
+          10 years, countless memories, different bikes, but the same two hearts and the same love. ❤️
+          From Passion Pro to R15, R15 to GS 310, and GS 310 to our next dream machine…
+          Bikes upgraded, dreams upgraded, but my favourite riding partner remains the same! 🧿
+
+          {"\n\n"}
+
+          Here’s to 10 years down the road and a lifetime of rides ahead. ❤️♾️
+          Our love story has no destination… just endless roads and one more gear to shift! 🏍️😘
         </p>
 
         <p className="mt-6 text-right font-serif text-xl italic text-pink-600">
