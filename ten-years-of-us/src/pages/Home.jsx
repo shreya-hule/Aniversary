@@ -161,7 +161,7 @@ export default function Home() {
             )}
 
             {/* Reveal content */}
-            <AnimatePresence mode="wait">
+            <AnimatePresence mode="sync">
               {currentStage <= 2 && !opened ? (
                 <motion.p
                   key={`hint-${currentStage}`}
