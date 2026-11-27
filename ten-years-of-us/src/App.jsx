@@ -1,5 +1,5 @@
-
 import { useRef, useState } from "react";
+import audioSrc from "../audio.mp3";
 import Home from "./pages/Home";
 import MusicPlayer from "./components/MusicPlayer";
 
@@ -29,7 +29,7 @@ function App() {
     <>
       <audio
         ref={audioRef}
-        src="ten-years-of-us/audio.mp3"
+        src={audioSrc}
         loop
         preload="auto"
         onEnded={() => setPlaying(false)}
