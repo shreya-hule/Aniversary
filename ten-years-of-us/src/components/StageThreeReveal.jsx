@@ -5,7 +5,7 @@ import { Heart, ChevronLeft, ChevronRight } from "lucide-react";
 
 const memories = [
   {
-    photo: "/photos/photo1.jpeg",
+    photo: "/photos/new_image.jpeg",
     caption: "My favourite smile ❤️",
     title: "My favourite person",
     message:
