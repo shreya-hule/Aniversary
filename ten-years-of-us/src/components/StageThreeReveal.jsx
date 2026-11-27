@@ -51,7 +51,19 @@ export default function StageThreeReveal({ onContinue }) {
   const memory = memories[page];
 
   return (
-    <section className="mx-auto mt-8 w-full max-w-5xl px-2">
+    <section
+      className="relative mx-auto mt-8 w-full max-w-5xl px-2"
+      style={{ isolation: "isolate" }}
+    >
+      {/* Chapter 3 background */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 -z-10 rounded-3xl bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(255, 246, 248, 0.72), rgba(255, 246, 248, 0.72)), url('/photos/bg-image.png')",
+        }}
+      />
 
       {/* Heading */}
       <motion.div
