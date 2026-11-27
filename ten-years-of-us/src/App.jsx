@@ -29,7 +29,7 @@ function App() {
     <>
       <audio
         ref={audioRef}
-        src="/music/anniversary-song.mp3"
+        src="ten-years-of-us/audio.mp3"
         loop
         preload="auto"
         onEnded={() => setPlaying(false)}
